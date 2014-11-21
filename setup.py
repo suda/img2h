@@ -18,7 +18,7 @@ setup(
     license = "BSD",
     keywords = "bitmap bytearray arduino spark core photon wiring",
     url = "https://github.com/suda/img2h",
-    modules = ['img2h'],
+    packages = ['img2h'],
     entry_points = {
         'console_scripts': ['img2h=img2h.command_line:convert'],
     },
